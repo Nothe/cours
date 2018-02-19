@@ -1,29 +1,61 @@
 .calculette {
-    background-color: lightslategrey;
-    border-radius: 10px;
-    height: 800px;
+    background-color: #000000;
+    border-radius: 60px;
+    height: 900px;
+    max-width: 450px;
+    padding: 30px;
+    background-image: url(IPhone_X.png);
+    background-repeat: no-repeat;
+    background-size: 450px 900px;
 }
+
+ 
+
 
 h1 {
-    background-color: lightgray;
+    color: white;
     border-radius: 10px;
-    margin: 30px;
-    margin-top: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    text-align: left;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    text-align: right;
+    font-size: 2em;
 }
+
+#zero {
+    padding-left : 80px;
+    padding-right : 80px;
+}
+
 
 .button {
-    padding: 40px;
-    border-radius: 50px;
-
-
-}
-
-.column {
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 20px 32px 50px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 20px;
+    font-weight: 600;
+    border-radius: 100px;
 }
 
+.operator {
+    background-color: #F19838;
+ 
+}
+
+.white {
+    background-color: #A6A6A6;
+ 
+}
+
+hr {
+    border-top: 5px solid #A6A6A6;
+    border-radius: 5px;
+    width: 100px;
+    margin: 70px 0px 0px 150px; 
+    
+}
 

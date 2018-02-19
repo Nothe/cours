@@ -17,7 +17,7 @@
     <section class="section hero is-fullheight">
         <div class="hero-body">
             <div class="container has-text-centered calculette">
-                <div class="back">
+                <div class="iphone">
 
                     <div class="first"></div>
                         <h1 id="result">0</h1>
@@ -25,73 +25,76 @@
 
                     <div class="columns">
                         <div class="column">
-                                    <button onclick="raz()" class="button is-small is-danger">R0</button>
+                                    <button onclick="raz()" class="button white">AC</button>
                         </div>
                         <div class="column">
-                                    <button onclick="envoyer('(')" class="button is-small is-danger">(</button>
+                                    <button onclick="envoyer('(')" class="button white">(</button>
                         </div>
                         <div class="column">
-                                    <button onclick="envoyer(')')" class="button is-small is-danger">)</button>
+                                    <button onclick="envoyer(')')" class="button white">)</button>
                         </div>
                         <div class="column">
-                                    <button onclick="envoyer('/')" class="button is-small is-danger">/</button>
+                                    <button onclick="envoyer('/')" class="button operator">/</button>
                         </div>
                      </div>
 
-                    <div class="columns">
+                    <div class="columns is-0">
                         <div class="column">
-                                        <button onclick="envoyer(7)" class="button is-small is-danger">7</button>
+                                        <button onclick="envoyer(7)" class="button">7</button>
                         </div>
                         <div class="column">
-                                        <button onclick="envoyer(8)" class="button is-small is-danger">8</button>
+                                        <button onclick="envoyer(8)" class="button">8</button>
                         </div>
                         <div class="column">
-                                        <button onclick="envoyer(9)" class="button is-small is-danger">9</button>
+                                        <button onclick="envoyer(9)" class="button">9</button>
                         </div>
                         <div class="column">
-                                        <button onclick="envoyer('*')" class="button is-small is-danger">X</button>
+                                        <button onclick="envoyer('*')" class="button operator">*</button>
                         </div>
                     </div>
                     <div class="columns">
                             <div class="column">
-                                        <button onclick="envoyer(4)" class="button is-small is-danger">4</button>
+                                        <button onclick="envoyer(4)" class="button">4</button>
                             </div>
                             <div class="column">
-                                        <button onclick="envoyer(5)" class="button is-small is-danger">5</button>
+                                        <button onclick="envoyer(5)" class="button">5</button>
                             </div>
                             <div class="column">
-                                        <button onclick="envoyer(6)" class="button is-small is-danger">6</button>
+                                        <button onclick="envoyer(6)" class="button">6</button>
                             </div>
                             <div class="column">
-                                        <button onclick="envoyer('-')" class="button is-small is-danger">-</button>
+                                        <button onclick="envoyer('-')" class="button operator">-</button>
                             </div>
                          </div>
     
                         <div class="columns">
                             <div class="column">
-                                            <button onclick="envoyer(1)" class="button is-small is-danger">1</button>
+                                            <button onclick="envoyer(1)" class="button">1</button>
                             </div>
                             <div class="column">
-                                            <button onclick="envoyer(2)" class="button is-small is-danger">2</button>
+                                            <button onclick="envoyer(2)" class="button">2</button>
                             </div>
                             <div class="column">
-                                            <button onclick="envoyer(3)" class="button is-small is-danger">3</button>
+                                            <button onclick="envoyer(3)" class="button">3</button>
                             </div>
                             <div class="column">
-                                            <button onclick="envoyer('+')" class="button is-small is-danger">+</button>
+                                            <button onclick="envoyer('+')" class="button operator">+</button>
                             </div>
                         </div>
                         <div class="columns">
                                 <div class="column is-6">
-                                                <button onclick="envoyer(0)" class="button is-small is-danger">0</button>
+                                                <button onclick="envoyer(0)" id="zero" class="button">0</button>
                                 </div>
                                 <div class="column">
-                                                <button  class="button is-small is-danger">,</button>
+                                                <button  onclick="envoyer('.')" class="button">,</button>
                                 </div>
                                 <div class="column">
-                                                <button onclick="egale()" class="button is-small is-danger">=</button>
+                                                <button onclick="egale()" class="button operator">=</button>
                                 </div>
-                            </div>
+                        </div>
+                        <div>
+                            <hr>
+                        </div>
 
                     </div>
                 </div>
