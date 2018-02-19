@@ -1,0 +1,29 @@
+.calculette {
+    background-color: lightslategrey;
+    border-radius: 10px;
+    height: 800px;
+}
+
+h1 {
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.button {
+    padding: 40px;
+    border-radius: 50px;
+
+
+}
+
+.column {
+    font-size: 20px;
+}
+
+
