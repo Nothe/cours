@@ -2,9 +2,6 @@ console.log("hi");
 
 let result = [];
 
-//console.log(result.join(''));
-//console.log(eval(result.join('')));
-
 
 function envoyer(valeur) {
 
